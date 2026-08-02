@@ -1,9 +1,25 @@
 aid: trishula-therapeutics
 name: Trishula Therapeutics
-description: Trishula Therapeutics is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Trishula Therapeutics is a privately held, clinical-stage immuno-oncology company developing
+  cancer immunotherapies that target immune-evasion mechanisms in the tumor microenvironment. Its lead
+  candidate, TTX-030, is a first-in-class monoclonal antibody that inhibits CD39, an enzyme in the adenosine
+  pathway that tumors exploit to suppress anti-tumor immunity; TTX-030 has advanced into Phase 2 clinical
+  trials, including studies in metastatic pancreatic cancer. The company was surfaced through the API
+  Evangelist network as a portfolio company of Canaan Partners. It is a therapeutics company with a corporate
+  web presence and no public API, developer, or software product surface.
 url: https://raw.githubusercontent.com/api-evangelist/trishula-therapeutics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.trishulatx.com/themes/default/images/logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +28,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Immuno-Oncology
+- Pharmaceuticals
+- Cancer
+- Therapeutics
+- Clinical Stage
+- Immunotherapy
 apis: []
+common:
+- type: DomainSecurity
+  url: security/trishula-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.trishulatx.com
+- type: About
+  url: https://www.trishulatx.com/about/
+- type: Blog
+  name: News
+  url: https://www.trishulatx.com/news/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/trishulatx/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
