@@ -8,6 +8,17 @@ description: Trishula Therapeutics is a privately held, clinical-stage immuno-on
   Evangelist network as a portfolio company of Canaan Partners. It is a therapeutics company with a corporate
   web presence and no public API, developer, or software product surface.
 url: https://raw.githubusercontent.com/api-evangelist/trishula-therapeutics/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
